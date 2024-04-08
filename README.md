@@ -18,7 +18,8 @@ Sample :
 	java -cp ooxml-schemas-1.4.jar -jar reportAnalysis.jar /app/goldengate/deploy/var/lib/report 60
 	
 The result files are generated in the same directory as that which contains the report files.
-In the Excel sheet, we have 3 tabs:
+In the Excel sheet, we have 3 sheets :
+
 	- The summary of insert, update and delete since the start of the process and the deltas according to the frequency parameters
 	- Trail switch periods
 	- Details by table and by transaction, cumulatively and in delta. To have this detail it is necessary to put in the extract and replicat report at xx:yy parameter files. To have the detail by hour for example set :
