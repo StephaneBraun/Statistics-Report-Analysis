@@ -22,18 +22,22 @@ In the Excel sheet, we have 3 sheets :
 
 	- The summary of insert, update and delete since the start of the process and the deltas according to the frequency parameters
 	- Trail switch periods
-	- Details by table and by transaction, cumulatively and in delta. To have this detail it is necessary to put in the extract and replicat report at xx:yy parameter files. To have the detail by hour for example set :
+	- Details by table and by transaction, cumulatively and in delta. To have this detail it is necessary to put in the extract and replicat report at xx:yy parameter files. 
+ 
+To have the detail by hour for example set :
 
-report at 00:00
-report at 01:00
-report at 02:00
-....
-report at 21:00
-report at 22:00
-report at 23:00
+	report at 00:00
+	report at 01:00
+	report at 02:00
+	....
+	report at 21:00
+	report at 22:00
+	report at 23:00
+
 
 Summary : 
-![image](https://github.com/StephaneBraun/Statistics-Report-Analysis/assets/119328984/eed02e12-b0aa-45fd-9859-ed31460710d5)
+
+![image](https://github.com/StephaneBraun/Statistics-Report-Analysis/assets/119328984/8ec7712f-ed4a-43b6-bbbf-d2c44b64fc56)
 
 Trails : 
 
