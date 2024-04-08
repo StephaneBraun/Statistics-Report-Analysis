@@ -1,7 +1,6 @@
 # Statistics-Report-Analysis
 GoldenGate Report File Analysis Utility with Automatic XLS File Generation
 
-GoldenGate Report File Analysis Utility with Automatic XLS File Generation
 
 Prerequisites:
 
@@ -9,14 +8,14 @@ Prerequisites:
 	
 Launching the utility: 
 
-	java -jar reportAnalysis.jar report_file_directory frequency
+	java -cp ooxml-schemas-1.4.jar -jar reportAnalysis.jar report_file_directory frequency
 	
 The frequency allows transactions to be summed per minute.
 Example: with 60 we sum the insert/update/delete passed in 1 hour
 	
 Sample :
 
-	java -jar reportAnalysis.jar /app/goldengate/deploy/var/lib/report 60
+	java -cp ooxml-schemas-1.4.jar -jar reportAnalysis.jar /app/goldengate/deploy/var/lib/report 60
 	
 The result files are generated in the same directory as that which contains the report files.
 In the Excel sheet, we have 3 tabs:
